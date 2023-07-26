@@ -1,11 +1,11 @@
 # TreeInvent-Community
 Tree-Invent examples for the various drug design strategy
 
-![cover image](./pics/TOC.png)
+![cover image](./pics/pic1.png)
 
 ## Description
-TreeInvent-Community shares the examples for various drug design strategy including the scaffold hopping, decoration and linker generation with or without topology constrains. By integrating the RL-algorithm, Tree-Invent could active the ultra-fast drug design with the desired structure or property.
-## examples
+TreeInvent-Community shares the examples for various drug design strategy including the scaffold hopping, decoration and linker generation with or without topology constrains as shown above. By integrating the RL-algorithm, Tree-Invent could active the ultra-fast drug design with the desired structure or property.
+## Examples
 Basic_train_examples: it is basic example of training the prior Tree-Invent model, including the dataset creation, basic hyper-parameter setting and unconstrained sampling.  
 
 Finetune_examples: it is a transfer-learing examples for finetuning the prior Tree-Invent model, Tree-Invent will quickly overfits the finetune datasets in few epochs, it would be necessary to increase the temp_factor for a better diversity of samplings.  
@@ -30,5 +30,5 @@ Glide_rocs_example: it is an example for both Glide docking score and rocs shape
 ## Contributors:
 [@Mingyuan Xu](https://github.com/MingyuanXu)
 
-## Examples
+## Code
 * Tree-Invent suite are avaliable from https://github.com/MingyuanXu/Tree-Invent.
