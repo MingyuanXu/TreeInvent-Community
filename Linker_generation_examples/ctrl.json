@@ -1,0 +1,100 @@
+{
+    "model":{
+        "device":"cuda",
+        "mlp1_hidden_dim":800,
+        "mlp2_hidden_dim":800
+    },
+    "train":{
+        "batchsize":16,
+        "initlr":0.00005,
+        "rearrange_molgraph_mode":"fix",
+        "nmols_per_epoch":25000
+    },
+    "system":{
+        "max_atoms":46,
+        "max_cliques":42,
+        "max_rings":8,
+        "max_ring_size":34,
+        "max_ring_states":62,
+        "max_node_add_states":42,
+        "max_node_connect_states":42,
+        "ring_cover_rate":0.97
+    },
+    "rl":{
+        "score_components":["activity"],
+        "qsar_models_path":"./activity/SVC.pickle",
+        "sigma":50
+    },
+    "sample_constrain":{
+        "max_node_steps":7,
+        "max_ring_nodes":100,
+        "temp":1.5,
+        "ring_check_mode":"easy",
+        "constrain_step_dict":{
+            "0":{
+                    "node add":{
+                        "specific_nodefile":"part_0.pickle",
+                        "force_step":true
+                    },
+                    "node conn":{
+                        "saturation_atomid_list":[1,2,3,5,6,7,8]
+                    }
+                },
+            "1":{
+                "node add":{
+                    "force_step":true
+                },
+                "node conn":{
+                    "constrain_connect_node_id":[0],
+                    "constrain_connect_atom_id":[[0]]
+                }
+            },
+            "2":{
+                "node add":{
+                    "force_step":true
+                },
+                "node conn":{
+                    "constrain_connect_node_id":[1]
+                }
+            },
+            "3":{
+                "node add":{
+                    "max_ring_num_per_node":2,
+                    "min_ring_num_per_node":1,
+                    "force_step":true
+                },
+                "node conn":{
+                    "constrain_connect_node_id":[2]
+                }
+            },
+            "4":{
+                "node add":{
+                    "force_step":true
+                },
+                "node conn":{
+                    "constrain_connect_node_id":[3]
+                }
+            },
+            "5":{
+                "node add":{
+                    "force_step":true
+                },
+                "node conn":{
+                    "constrain_connect_node_id":[3]
+                }
+            },
+            "6":{
+                "node add":{
+                    "specific_nodefile":"part_1.pickle",
+                    "force_step":true
+                },
+                "node conn":{
+                    "constrain_connect_node_id":[4],
+                    "saturation_atomid_list":[0,1,2,3,5,6,7,8,9,10,11],
+                    "anchor_before":4
+
+                }
+            }
+        }
+    }
+}

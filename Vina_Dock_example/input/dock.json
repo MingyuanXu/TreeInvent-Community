@@ -1,0 +1,66 @@
+{
+    "docking": {
+        "header": {
+            "logging": {
+                "logfile": "./224/0/dock.log"
+            }
+        },
+        "ligand_preparation": {
+            "embedding_pools": [
+                {
+                    "pool_id": "RDkit_pool",
+                    "type": "RDkit",
+                    "parameters": {
+                        "protonate": true,
+                        "prefix_execution": "module load RDkit"
+                    },
+                    "input": {
+                        "standardize_smiles": false,
+                        "type": "smi",
+                        "input_path": "./224/0/ligand.smi"
+                    },
+                    "output": {
+                        "conformer_path": "./224/0/ligand.sdf",
+                        "format": "sdf"
+                    }
+                }
+            ]
+        },
+        "docking_runs": [
+            {
+                "backend": "AutoDockVina",
+                "run_id": "AutoDockVina",
+                "input_pools": [
+                    "RDkit_pool"
+                ],
+                "parameters": {
+                    "binary_location": "/data/myxu/Tree_Invent/envs/autodock_vina_1_1_2_linux_x86/bin",
+                    "parallelization": {
+                        "number_cores": 10
+                    },
+                    "seed": 42,
+                    "receptor_pdbqt_path": [
+                        "./input/target.fix.pdbqt"
+                    ],
+                    "number_poses": 2,
+                    "search_space": {
+                        "--center_x": -14.3,
+                        "--center_y": -27.47,
+                        "--center_z": 6.73,
+                        "--size_x": 20,
+                        "--size_y": 20,
+                        "--size_z": 20
+                    }
+                },
+                "output": {
+                    "poses": {
+                        "poses_path": "./224/0/pose.sdf"
+                    },
+                    "scores": {
+                        "scores_path": "./224/0/score.log"
+                    }
+                }
+            }
+        ]
+    }
+}

@@ -1,0 +1,29 @@
+{
+    "model":{
+        "device":"cuda",
+        "mlp1_hidden_dim":1000,
+        "mlp2_hidden_dim":1000
+    },
+    "train":{
+        "batchsize":26,
+        "initlr":0.00005,
+        "rearrange_molgraph_mode":"fix",
+        "nmols_per_epoch":25000
+    },
+    "system":{
+        "max_atoms":46,
+        "max_cliques":42,
+        "max_rings":8,
+        "max_ring_size":34,
+        "max_ring_states":62,
+        "max_node_add_states":42,
+        "max_node_connect_states":42,
+        "ring_cover_rate":0.97
+    },
+    "sample_constrain":{
+        "max_node_steps":42,
+        "max_ring_nodes":100,
+        "temp":1.0,
+        "ring_check_mode":"easy"
+    }
+}

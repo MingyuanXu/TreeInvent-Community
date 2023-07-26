@@ -1,0 +1,11 @@
+COCCN1CCN(Cc2ncc(Nc3cc(-c4cc(F)c5nc(C)n(C(C)C)c5c4)ncn3)nc2)CC1
+Cc1nc2c(F)cc(-c3ncnc(Nc4cnc(CN5CCN(C(C)C)CC5)cn4)c3)cc2n1C(C)C
+Cc1nc2c(F)cc(-c3ncnc(Nc4cnc(CN5CCN(C6CCCC6)CC5)cn4)c3)cc2n1C(C)C
+CCN1CCN(Cc2cnc(Nc3cc(-c4cc(F)c5nc(C)n(C(C)C)c5c4)ncn3)cn2)CC1
+CCN1CCN(Cc2cnc(Nc3c(F)c(-c4cc(F)c5nc(C)n(C(C)C)c5c4)ncn3)cn2)CC1
+CCN1CCN(Cc2ncc(Nc3cc(-c4cc(F)c5nc(C)n(C(C)C)c5c4)ncn3)cn2)CC1
+CCN1CCN(Cc2cnc(Nc3cc(-c4cc(F)c5nc(C)n(C(C)C)c5c4)ncn3)nc2)CC1
+Cc1nc2c(F)cc(-c3ncnc(Nc4cnc(CN5CCN(CC(F)(F)F)CC5)cn4)c3)cc2n1C(C)C
+CCN1CCN(Cc2cnc(Nc3cc(-c4cc(F)c5nc(C)n(C(C)C)c5c4)ncn3)cc2)CC1
+CCN1CCN(Cc2nnc(Nc3cc(-c4cc(F)c5nc(C)n(C(C)C)c5c4)ncn3)cc2)CC1
+Cc1nc2c(F)cc(-c3ncnc(Nc4cnc(CN5CCN(CC6CC6)CC5)cn4)c3)cc2n1C(C)C

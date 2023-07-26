@@ -1,0 +1,153 @@
+2023-03-16 23:53:30 - DockStream version used: Modified in TreeInvent
+2023-03-16 23:53:30 - Warning: importing 'simtk.openmm' is deprecated.  Import 'openmm' instead.
+2023-03-16 23:53:32 - Started preparation run number 0.
+2023-03-16 23:53:33 - Ligand from file ./input/reflig.pdb has the following dimensions:
+X coordinates: min=-16.95, max=-11.62, mean=-14.3
+Y coordinates: min=-29.74, max=-25.83, mean=-27.47
+Z coordinates: min=6.19, max=7.35, mean=6.73
+2023-03-16 23:53:33 - Wrote AutoDock Vina target to file ./input/target.fix.pdbqt.
+2023-03-16 23:53:33 - Completed target preparation run number 0.
+2023-03-16 23:57:00 - DockStream version used: Modified in TreeInvent
+2023-03-16 23:57:00 - Warning: importing 'simtk.openmm' is deprecated.  Import 'openmm' instead.
+2023-03-16 23:57:02 - Started preparation run number 0.
+2023-03-16 23:57:02 - Ligand from file ./input/reflig.pdb has the following dimensions:
+X coordinates: min=-16.95, max=-11.62, mean=-14.3
+Y coordinates: min=-29.74, max=-25.83, mean=-27.47
+Z coordinates: min=6.19, max=7.35, mean=6.73
+2023-03-16 23:57:02 - Wrote AutoDock Vina target to file ./input/target.fix.pdbqt.
+2023-03-16 23:57:02 - Completed target preparation run number 0.
+2023-03-16 23:57:48 - DockStream version used: Modified in TreeInvent
+2023-03-16 23:57:49 - Warning: importing 'simtk.openmm' is deprecated.  Import 'openmm' instead.
+2023-03-16 23:57:51 - Started preparation run number 0.
+2023-03-16 23:57:51 - Ligand from file ./input/reflig.pdb has the following dimensions:
+X coordinates: min=-16.95, max=-11.62, mean=-14.3
+Y coordinates: min=-29.74, max=-25.83, mean=-27.47
+Z coordinates: min=6.19, max=7.35, mean=6.73
+2023-03-16 23:57:51 - Wrote AutoDock Vina target to file ./input/target.fix.pdbqt.
+2023-03-16 23:57:51 - Completed target preparation run number 0.
+2023-03-16 23:59:16 - DockStream version used: Modified in TreeInvent
+2023-03-16 23:59:16 - Warning: importing 'simtk.openmm' is deprecated.  Import 'openmm' instead.
+2023-03-16 23:59:19 - Started preparation run number 0.
+2023-03-16 23:59:19 - Ligand from file ./input/reflig.pdb has the following dimensions:
+X coordinates: min=-16.95, max=-11.62, mean=-14.3
+Y coordinates: min=-29.74, max=-25.83, mean=-27.47
+Z coordinates: min=6.19, max=7.35, mean=6.73
+2023-03-16 23:59:19 - Wrote AutoDock Vina target to file ./input/target.fix.pdbqt.
+2023-03-16 23:59:19 - Completed target preparation run number 0.
+2023-03-17 00:23:38 - DockStream version used: Modified in TreeInvent
+2023-03-17 00:23:38 - Warning: importing 'simtk.openmm' is deprecated.  Import 'openmm' instead.
+2023-03-17 00:23:40 - Started preparation run number 0.
+2023-03-17 00:23:41 - Ligand from file ./input/reflig.pdb has the following dimensions:
+X coordinates: min=-16.95, max=-11.62, mean=-14.3
+Y coordinates: min=-29.74, max=-25.83, mean=-27.47
+Z coordinates: min=6.19, max=7.35, mean=6.73
+2023-03-17 00:23:41 - Wrote AutoDock Vina target to file ./input/target.fix.pdbqt.
+2023-03-17 00:23:41 - Completed target preparation run number 0.
+2023-03-17 00:24:06 - DockStream version used: Modified in TreeInvent
+2023-03-17 00:24:06 - Warning: importing 'simtk.openmm' is deprecated.  Import 'openmm' instead.
+2023-03-17 00:24:08 - Started preparation run number 0.
+2023-03-17 00:24:08 - Ligand from file ./input/reflig.pdb has the following dimensions:
+X coordinates: min=-16.95, max=-11.62, mean=-14.3
+Y coordinates: min=-29.74, max=-25.83, mean=-27.47
+Z coordinates: min=6.19, max=7.35, mean=6.73
+2023-03-17 00:24:08 - Wrote AutoDock Vina target to file ./input/target.fix.pdbqt.
+2023-03-17 00:24:08 - Completed target preparation run number 0.
+2023-03-17 00:30:15 - DockStream version used: Modified in TreeInvent
+2023-03-17 00:30:15 - Warning: importing 'simtk.openmm' is deprecated.  Import 'openmm' instead.
+2023-03-17 00:30:17 - Started preparation run number 0.
+2023-03-17 00:30:17 - Ligand from file ./input/reflig.pdb has the following dimensions:
+X coordinates: min=-16.95, max=-11.62, mean=-14.3
+Y coordinates: min=-29.74, max=-25.83, mean=-27.47
+Z coordinates: min=6.19, max=7.35, mean=6.73
+2023-03-17 00:30:17 - Wrote AutoDock Vina target to file ./input/target.fix.pdbqt.
+2023-03-17 00:30:17 - Completed target preparation run number 0.
+2023-03-17 00:33:01 - DockStream version used: Modified in TreeInvent
+2023-03-17 00:33:01 - Warning: importing 'simtk.openmm' is deprecated.  Import 'openmm' instead.
+2023-03-17 00:33:03 - Started preparation run number 0.
+2023-03-17 00:33:03 - Ligand from file ./input/reflig.pdb has the following dimensions:
+X coordinates: min=-16.95, max=-11.62, mean=-14.3
+Y coordinates: min=-29.74, max=-25.83, mean=-27.47
+Z coordinates: min=6.19, max=7.35, mean=6.73
+2023-03-17 00:33:03 - Wrote AutoDock Vina target to file ./input/target.fix.pdbqt.
+2023-03-17 00:33:03 - Completed target preparation run number 0.
+2023-03-17 00:34:10 - DockStream version used: Modified in TreeInvent
+2023-03-17 00:34:10 - Warning: importing 'simtk.openmm' is deprecated.  Import 'openmm' instead.
+2023-03-17 00:34:13 - Started preparation run number 0.
+2023-03-17 00:34:13 - Ligand from file ./input/reflig.pdb has the following dimensions:
+X coordinates: min=-16.95, max=-11.62, mean=-14.3
+Y coordinates: min=-29.74, max=-25.83, mean=-27.47
+Z coordinates: min=6.19, max=7.35, mean=6.73
+2023-03-17 00:34:13 - Wrote AutoDock Vina target to file ./input/target.fix.pdbqt.
+2023-03-17 00:34:13 - Completed target preparation run number 0.
+2023-03-17 00:37:28 - DockStream version used: Modified in TreeInvent
+2023-03-17 00:37:28 - Warning: importing 'simtk.openmm' is deprecated.  Import 'openmm' instead.
+2023-03-17 00:37:30 - Started preparation run number 0.
+2023-03-17 00:37:30 - Ligand from file ./input/reflig.pdb has the following dimensions:
+X coordinates: min=-16.95, max=-11.62, mean=-14.3
+Y coordinates: min=-29.74, max=-25.83, mean=-27.47
+Z coordinates: min=6.19, max=7.35, mean=6.73
+2023-03-17 00:37:30 - Wrote AutoDock Vina target to file ./input/target.fix.pdbqt.
+2023-03-17 00:37:30 - Completed target preparation run number 0.
+2023-03-17 00:40:25 - DockStream version used: Modified in TreeInvent
+2023-03-17 00:40:26 - Warning: importing 'simtk.openmm' is deprecated.  Import 'openmm' instead.
+2023-03-17 00:40:28 - Started preparation run number 0.
+2023-03-17 00:40:28 - Ligand from file ./input/reflig.pdb has the following dimensions:
+X coordinates: min=-16.95, max=-11.62, mean=-14.3
+Y coordinates: min=-29.74, max=-25.83, mean=-27.47
+Z coordinates: min=6.19, max=7.35, mean=6.73
+2023-03-17 00:40:28 - Wrote AutoDock Vina target to file ./input/target.fix.pdbqt.
+2023-03-17 00:40:28 - Completed target preparation run number 0.
+2023-03-17 00:48:40 - DockStream version used: Modified in TreeInvent
+2023-03-17 00:48:40 - Warning: importing 'simtk.openmm' is deprecated.  Import 'openmm' instead.
+2023-03-17 00:48:42 - Started preparation run number 0.
+2023-03-17 00:48:42 - Ligand from file ./input/reflig.pdb has the following dimensions:
+X coordinates: min=-16.95, max=-11.62, mean=-14.3
+Y coordinates: min=-29.74, max=-25.83, mean=-27.47
+Z coordinates: min=6.19, max=7.35, mean=6.73
+2023-03-17 00:48:42 - Wrote AutoDock Vina target to file ./input/target.fix.pdbqt.
+2023-03-17 00:48:42 - Completed target preparation run number 0.
+2023-03-17 00:56:19 - DockStream version used: Modified in TreeInvent
+2023-03-17 00:56:19 - Warning: importing 'simtk.openmm' is deprecated.  Import 'openmm' instead.
+2023-03-17 00:56:21 - Started preparation run number 0.
+2023-03-17 00:56:21 - Ligand from file ./input/reflig.pdb has the following dimensions:
+X coordinates: min=-16.95, max=-11.62, mean=-14.3
+Y coordinates: min=-29.74, max=-25.83, mean=-27.47
+Z coordinates: min=6.19, max=7.35, mean=6.73
+2023-03-17 00:56:21 - Wrote AutoDock Vina target to file ./input/target.fix.pdbqt.
+2023-03-17 00:56:21 - Completed target preparation run number 0.
+2023-03-17 00:56:44 - DockStream version used: Modified in TreeInvent
+2023-03-17 00:56:44 - Warning: importing 'simtk.openmm' is deprecated.  Import 'openmm' instead.
+2023-03-17 00:56:46 - Started preparation run number 0.
+2023-03-17 00:56:47 - Ligand from file ./input/reflig.pdb has the following dimensions:
+X coordinates: min=-16.95, max=-11.62, mean=-14.3
+Y coordinates: min=-29.74, max=-25.83, mean=-27.47
+Z coordinates: min=6.19, max=7.35, mean=6.73
+2023-03-17 00:56:47 - Wrote AutoDock Vina target to file ./input/target.fix.pdbqt.
+2023-03-17 00:56:47 - Completed target preparation run number 0.
+2023-03-17 01:01:22 - DockStream version used: Modified in TreeInvent
+2023-03-17 01:01:22 - Warning: importing 'simtk.openmm' is deprecated.  Import 'openmm' instead.
+2023-03-17 01:01:24 - Started preparation run number 0.
+2023-03-17 01:01:24 - Ligand from file ./input/reflig.pdb has the following dimensions:
+X coordinates: min=-16.95, max=-11.62, mean=-14.3
+Y coordinates: min=-29.74, max=-25.83, mean=-27.47
+Z coordinates: min=6.19, max=7.35, mean=6.73
+2023-03-17 01:01:24 - Wrote AutoDock Vina target to file ./input/target.fix.pdbqt.
+2023-03-17 01:01:24 - Completed target preparation run number 0.
+2023-03-17 01:05:19 - DockStream version used: Modified in TreeInvent
+2023-03-17 01:05:19 - Warning: importing 'simtk.openmm' is deprecated.  Import 'openmm' instead.
+2023-03-17 01:05:21 - Started preparation run number 0.
+2023-03-17 01:05:21 - Ligand from file ./input/reflig.pdb has the following dimensions:
+X coordinates: min=-16.95, max=-11.62, mean=-14.3
+Y coordinates: min=-29.74, max=-25.83, mean=-27.47
+Z coordinates: min=6.19, max=7.35, mean=6.73
+2023-03-17 01:05:21 - Wrote AutoDock Vina target to file ./input/target.fix.pdbqt.
+2023-03-17 01:05:21 - Completed target preparation run number 0.
+2023-03-17 01:06:51 - DockStream version used: Modified in TreeInvent
+2023-03-17 01:06:51 - Warning: importing 'simtk.openmm' is deprecated.  Import 'openmm' instead.
+2023-03-17 01:06:54 - Started preparation run number 0.
+2023-03-17 01:06:54 - Ligand from file ./input/reflig.pdb has the following dimensions:
+X coordinates: min=-16.95, max=-11.62, mean=-14.3
+Y coordinates: min=-29.74, max=-25.83, mean=-27.47
+Z coordinates: min=6.19, max=7.35, mean=6.73
+2023-03-17 01:06:54 - Wrote AutoDock Vina target to file ./input/target.fix.pdbqt.
+2023-03-17 01:06:54 - Completed target preparation run number 0.

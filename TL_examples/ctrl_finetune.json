@@ -1,0 +1,27 @@
+{
+    "model":{
+        "device":"cuda",
+        "mlp1_hidden_dim":800,
+        "mlp2_hidden_dim":800
+
+    },
+    "train":{
+        "batchsize":12,
+        "initlr":0.000005,
+        "rearrange_molgraph_mode":"fix"
+    },
+    "system":{
+        "max_atoms":46,
+        "max_cliques":42,
+        "max_rings":8,
+        "max_ring_size":34,
+        "max_ring_states":62,
+        "max_node_add_states":42,
+        "max_node_connect_states":42,
+        "ring_cover_rate":0.97
+    },
+    "ft":{
+        "sdf_path":"cdk4_ligands.sdf",
+        "converge_similarity":0.7
+    }
+}

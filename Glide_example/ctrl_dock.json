@@ -1,0 +1,36 @@
+{
+    "model":{
+        "device":"cuda",
+        "mlp1_hidden_dim":800,
+        "mlp2_hidden_dim":800
+    },
+    "train":{
+        "batchsize":32,
+        "initlr":0.00005
+    },
+    "system":{
+        "max_atoms":46,
+        "max_cliques":42,
+        "max_rings":8,
+        "max_ring_size":34,
+        "max_ring_states":62,
+        "max_node_add_states":42,
+        "max_node_connect_states":42,
+        "ring_cover_rate":0.97
+    },
+    "rl":{
+        "score_components":["dockscore"],
+        "sigma":50
+    },
+    "docking":{
+        "dock_input_path":"/data/myxu/Tree_Invent/scripts/RL_Dock/Glide_example",
+        "backend":"Glide",
+        "low_threshold":-9.0,
+        "high_threshold":-4.0,
+        "k":0.2,
+        "dockstream_root_path":"/data/myxu/Tree_Invent/envs/DockStream",
+        "grid_path":"glide-grid_4OW0_min.zip",
+        "ncores":20,
+        "nposes":2
+    }
+}
